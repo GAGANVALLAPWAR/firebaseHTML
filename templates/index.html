@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Page</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='Style.css')}}">
+
+
+<body>
+    <div class="container">
+        <h1> Hello, Student </h1>
+        <form method="POST">
+            <input type="text" name="college" placeholder="Enter your college name" required><br><br>
+            <textarea name="branch" placeholder="Enter your Branch" required></textarea><br><br>
+            <textarea name="year" placeholder="Enter your year" required></textarea><br><br>
+            <textarea name="feedback" placeholder="Enter Feedback" required></textarea><br><br>
+            <button type="submit">Send</button>
+        </form>
+        <a href="/contact ">Contact us😎</a>
+        <div>
+            <a href="/about">About us😶‍🌫️</a>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
